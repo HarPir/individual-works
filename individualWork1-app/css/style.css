@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    padding: 25px;
+    font-family: Arial;
+    background: #ddd;
+}
+
+#root {
+    padding: 25px;
+    background: #fff;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#screenBlock {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+#screenBlock button {
+    background: #1a90d2;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
