@@ -1,0 +1,19 @@
+{
+  "name": "individualwork1-app",
+  "version": "1.0.0",
+  "description": "edit app",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json -p 5555 -w true"
+  },
+  "keywords": [
+    "edit",
+    "app",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  }
+}
