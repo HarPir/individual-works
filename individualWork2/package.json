@@ -1,0 +1,16 @@
+{
+  "name": "individualwork2",
+  "version": "0.0.1",
+  "description": "todo",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json -p 5555 -w true",
+    "wbpack": "npx webpack"
+  },
+  "author": "harut",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
